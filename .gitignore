@@ -1,0 +1,45 @@
+# === 字节码与缓存 ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === 虚拟环境 (强烈建议针对不同版本使用) ===
+.venv/
+venv/
+ENV/
+env/
+# 兼容 conda 环境
+conda-env/
+
+# === 分发与打包 ===
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === 单元测试与覆盖率 ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# === 本地配置与密钥 (非常重要) ===
+.env
+.venv
+.pypirc
+instance/
+.idea/
+.vscode/
+*.swp
+
+# === 操作系统相关 ===
+.DS_Store
+Thumbs.db
